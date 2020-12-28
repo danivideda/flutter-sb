@@ -23,6 +23,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  # Add the dependency for the Firebase Core Flutter SDK
+  firebase_core: ^0.5.3
+  # Add the dependency for the FlutterFire plugin for Google Analytics
+  firebase_analytics: ^5.0.2
+  firebase_auth: ^0.18.4+1
+
+
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -45,7 +52,8 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
+  assets:
+    - assets/
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
